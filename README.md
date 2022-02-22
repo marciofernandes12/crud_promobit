@@ -1,5 +1,4 @@
 # Cadastro de Produtos e Tags
-# vServices
 
 ## 🚀 Começando
 1. Clonar o repositório na sua máquina, no terminal executar o comando git clone linkdorepositorio.
