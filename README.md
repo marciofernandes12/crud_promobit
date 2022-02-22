@@ -4,7 +4,7 @@
 1. Clonar o repositório na sua máquina, no terminal executar o comando git clone linkdorepositorio.
 2. Após clonar o repositório, dentro da pasta projeto executa o comando.
 - composer install
-- 
+
 ### 📋 Pré-requisitos
 - PHP a partir da versão 7.3.
 - MySQL 5.7
