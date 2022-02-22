@@ -21,7 +21,7 @@
 
 ## ⚙️ Startando o Servidor
 1. Para iniciar o servidor do Laravel basta executar o comando abaixo. 
-- php artisan migrate
+- php artisan serve
 
 ## 🛠️ Construído com
 - [PHP](https://www.php.net/) - A linguagem usada
