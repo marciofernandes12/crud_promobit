@@ -14,7 +14,7 @@ class TagController extends Controller
     }
     public function index()
     {
-        $tags = Tag::where('is_deleted', 0)->get();
+        $tags = Tag::::all();
         return view('tags', ['tags' => $tags]);
     }
 
