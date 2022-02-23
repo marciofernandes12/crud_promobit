@@ -11,6 +11,8 @@
 - Composer
 
 ## ⚙️ Configurando .env
+![image](https://user-images.githubusercontent.com/28792600/155243906-f4737caf-877a-459c-a9e5-7a0ce09bec90.png)
+
 1. Configurar o nome do banco de dados.
 2. Configurar o usuário para acesso ao banco de dados. 
 3. Configurar a senha para acesso ao banco de dados.
