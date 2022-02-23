@@ -15,7 +15,6 @@ class AddFieldsTableTag extends Migration
     {
         Schema::table('tag', function (Blueprint $table) {
             $table->text('description');
-            $table->tinyInteger('is_deleted');
             $table->timestamps();
         });
     }

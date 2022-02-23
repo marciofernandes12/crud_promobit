@@ -15,7 +15,6 @@ class AddFieldsTableProduct extends Migration
     {
         Schema::table('product', function (Blueprint $table) {
             $table->text('description');
-            $table->tinyInteger('is_deleted');
             $table->timestamps();
         });
     }
