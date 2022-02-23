@@ -1,21 +1,28 @@
 # Cadastro de Produtos e Tags
 
-## 🚀 Começando
-1. Clonar o repositório na sua máquina, no terminal executar o comando git clone linkdorepositorio.
-2. Após clonar o repositório, dentro da pasta projeto executa o comando.
-- composer install
+
 
 ### 📋 Pré-requisitos
 - PHP a partir da versão 7.3.
 - MySQL 5.7
 - Composer
 
+## 🚀 Começando
+1. Clonar o repositório na sua máquina, no terminal executar o comando git clone linkdorepositorio.
+2. Após clonar o repositório, dentro da pasta projeto executa o comando.
+- composer install
+
 ## ⚙️ Configurando .env
+1. Fazer uma cópia do .env.example como .env
+2. Após a cópica configurar banco de dados, conforme foto abaixo.
 ![image](https://user-images.githubusercontent.com/28792600/155243906-f4737caf-877a-459c-a9e5-7a0ce09bec90.png)
 
 1. Configurar o nome do banco de dados.
 2. Configurar o usuário para acesso ao banco de dados. 
 3. Configurar a senha para acesso ao banco de dados.
+
+## ⚙️ Gerando Chave da Aplicação
+- php artisan key:generate
 
 ## ⚙️ Executando as migrations.
 1. Para Executar as migrations de adição de data de criação de produtos e tags as respectivas tabelas basta executar o comando abaixo. 
