@@ -32,7 +32,17 @@
 ## ⚙️ Startando o Servidor
 1. Para iniciar o servidor do Laravel basta executar o comando abaixo. 
 - php artisan serve
-
+## ⚙️ SQL Relatório de Relevância de Produtos
+SELECT 
+    COUNT(p.id) AS total, t.name
+FROM
+    product AS p
+        LEFT JOIN
+    product_tag AS pt ON (p.id = pt.product_id)
+        LEFT JOIN
+    tag AS t ON (t.id = pt.tag_id)
+GROUP BY t.id
+ORDER by total desc
 ## 🛠️ Construído com
 - [PHP](https://www.php.net/) - A linguagem usada
 - [MySQL](https://www.mysql.com/) - SGBD
