@@ -15,7 +15,7 @@ class ProductController extends Controller
     }
     public function index()
     {
-        $products = Product::where('is_deleted', 0)->get();
+        $products = Product::all();
         return view('products', ['products' => $products]);
     }
 
