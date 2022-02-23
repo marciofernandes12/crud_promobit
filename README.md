@@ -14,7 +14,7 @@
 
 ## ⚙️ Configurando .env
 1. Fazer uma cópia do .env.example como .env
-2. Após a cópica configurar banco de dados, conforme foto abaixo.
+2. Após a cópia configurar banco de dados, conforme foto abaixo.
 ![image](https://user-images.githubusercontent.com/28792600/155243906-f4737caf-877a-459c-a9e5-7a0ce09bec90.png)
 
 1. Configurar o nome do banco de dados.
