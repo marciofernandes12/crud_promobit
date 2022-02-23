@@ -25,7 +25,7 @@
 ## ⚙️ Gerando Chave da Aplicação
 - php artisan key:generate
 
-## ⚙️ Executando as migrations.
+## ⚙️ Executando as migrações de banco de dados.
 1. Para Executar as migrations de adição de data de criação de produtos e tags as respectivas tabelas basta executar o comando abaixo. 
 - php artisan migrate
 
