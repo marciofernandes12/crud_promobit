@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\ProductTag;
 use App\Models\Tag;
 use Illuminate\Http\Request;
 
@@ -59,6 +60,8 @@ class TagController extends Controller
 
     public function destroy($id)
     {
+        $product_tag = ProductTag::where('tag_id', $id);
+        $product_tag->delete();
         $tag = Tag::findOrFail($id);
         $tag->delete();
         toastr()->success('Tag Deletada com Sucesso!');

@@ -73,8 +73,11 @@ class ProductController extends Controller
 
     public function destroy($id)
     {
+        $product_tag = ProductTag::where('product_id', $id);
+        $product_tag->delete();
         $product = Product::findOrFail($id);
         $product->delete();
+
         toastr()->success('Produto Deletado com Sucesso!');
         return  redirect(route('products@view'));
     }
